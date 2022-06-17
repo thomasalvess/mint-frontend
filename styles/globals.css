@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
+@import "embla.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+scroll-behavior: smooth;
+background-position: 50% 20px;
+background-repeat: no-repeat;
+background-color: #000000;
+}
+
+/*.bg-pattern {
+  background-image: url("../public/images/casa2.png");
+  background-size: cover;
+  background-color: #000000;
+  filter: blur(2);  
+}*/
+
+.connect {
+  position: left 20pxs;
+}
+
