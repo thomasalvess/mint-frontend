@@ -1,7 +1,7 @@
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(process.env.NEXT_PUBLIC_API_URL);
 
-const contract = require("../artifacts/contracts/Degenghosts.sol/DegenGhosts.json");
+const contract = require("../utils/DegenGhosts.json");
 const contractAddress = "0xE19c8E2000f9B9e66eD134FC46059BA499fE435E";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 
